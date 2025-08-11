@@ -1,0 +1,26 @@
+{
+  "name": "url-checker",
+  "version": "1.0.0",
+  "description": "Express service to resolve redirects, detect HTTPS->HTTP downgrade, and check Google Safe Browsing.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "smoke": "node scripts/smoke.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "express",
+    "google-safe-browsing",
+    "redirects",
+    "security"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
